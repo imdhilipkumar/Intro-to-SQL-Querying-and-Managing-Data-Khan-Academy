@@ -28,7 +28,11 @@ The course is divided into several key topics:
    - Resources to deepen understanding of SQL and database management
 
 ## 📁 Repository Structure
-<pre><code>``` ├── 1 SQL basics/ ├── 2 More advanced SQL queries/ ├── 3 Relational queries in SQL/ ├── 4 Modifying databases with SQL/ └── README.md ```</code></pre>
+├── 1 SQL basics/
+├── 2 More advanced SQL queries/
+├── 3 Relational queries in SQL/
+├── 4 Modifying databases with SQL/
+└── README.md
 
 
 
