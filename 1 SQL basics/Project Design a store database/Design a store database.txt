@@ -1,0 +1,33 @@
+-- Step 1: Create the store table
+CREATE TABLE electronics_store (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    category TEXT,
+    price INTEGER,
+    brand TEXT,
+    stock_quantity INTEGER
+);
+
+-- Step 2: Insert at least 15 items into the store
+INSERT INTO electronics_store VALUES (1, "Smartphone A1", "Mobile", 15000, "TechBrand", 25);
+INSERT INTO electronics_store VALUES (2, "Laptop Pro X", "Laptop", 55000, "ByteComp", 10);
+INSERT INTO electronics_store VALUES (3, "Tablet S", "Tablet", 20000, "GigaTech", 18);
+INSERT INTO electronics_store VALUES (4, "Wireless Earbuds", "Audio", 3500, "SoundZ", 40);
+INSERT INTO electronics_store VALUES (5, "Smartwatch Z", "Wearable", 7500, "FitTime", 30);
+INSERT INTO electronics_store VALUES (6, "Gaming Console", "Entertainment", 40000, "PlayMax", 12);
+INSERT INTO electronics_store VALUES (7, "Monitor 24in", "Accessories", 12000, "ViewClear", 20);
+INSERT INTO electronics_store VALUES (8, "Keyboard RGB", "Accessories", 2500, "KeyBee", 50);
+INSERT INTO electronics_store VALUES (9, "Mouse Wireless", "Accessories", 1800, "Clicky", 45);
+INSERT INTO electronics_store VALUES (10, "Power Bank 10K", "Power", 1200, "ChargeIt", 35);
+INSERT INTO electronics_store VALUES (11, "Smart TV 42in", "TV", 32000, "ViewClear", 8);
+INSERT INTO electronics_store VALUES (12, "Bluetooth Speaker", "Audio", 3000, "SoundZ", 28);
+INSERT INTO electronics_store VALUES (13, "Router 5G", "Networking", 2600, "NetPro", 22);
+INSERT INTO electronics_store VALUES (14, "External SSD", "Storage", 7000, "DataVault", 15);
+INSERT INTO electronics_store VALUES (15, "VR Headset", "Entertainment", 45000, "ImmersiTech", 5);
+
+-- Step 3: Select all items ordered by price (low to high)
+SELECT * FROM electronics_store
+ORDER BY price ASC;
+
+-- Step 4: Show a statistic — example: average price of items
+SELECT AVG(price) AS average_price FROM electronics_store;
