@@ -6,7 +6,7 @@ This repository contains practice exercises and queries based on the **Khan Acad
 
 The course is divided into several key topics:
 
-1. **SQL Basics**
+1. [**SQL Basics**](https://github.com/imdhilipkumar/Intro-to-SQL-Querying-and-Managing-Data-Khan-Academy/tree/d2c3622cff2c8cf8d27909ab5e22691bdbbf0ba4/1%20SQL%20basics)
    - Creating tables
    - Selecting and filtering data
    - Using ORDER BY and LIMIT
