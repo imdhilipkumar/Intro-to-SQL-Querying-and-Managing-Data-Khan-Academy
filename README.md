@@ -11,16 +11,16 @@ The course is divided into several key topics:
    - Selecting and filtering data
    - Using ORDER BY and LIMIT
 
-2. **More Advanced SQL Queries**
+2. [**More Advanced SQL Queries**](https://github.com/imdhilipkumar/Intro-to-SQL-Querying-and-Managing-Data-Khan-Academy/tree/877ee031f2344efde38e282642c14c4d97ac8a22/2%20More%20advanced%20SQL%20queries)
    - Logical operators: `AND`, `OR`, `NOT`
    - Pattern matching: `LIKE`, `IN`
    - Aggregation: `COUNT`, `SUM`, `AVG`, `HAVING`
 
-3. **Relational Queries**
+3. [**Relational Queries**](https://github.com/imdhilipkumar/Intro-to-SQL-Querying-and-Managing-Data-Khan-Academy/tree/877ee031f2344efde38e282642c14c4d97ac8a22/3%20Relational%20queries%20in%20SQL)
    - Creating and linking multiple tables
    - JOIN operations: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `SELF JOIN`
 
-4. **Modifying Databases**
+4. [**Modifying Databases**](https://github.com/imdhilipkumar/Intro-to-SQL-Querying-and-Managing-Data-Khan-Academy/tree/877ee031f2344efde38e282642c14c4d97ac8a22/4%20Modifying%20databases%20with%20SQL)
    - Modifying data: `UPDATE`, `DELETE`
    - Changing schemas: `ALTER`, `DROP`
 
